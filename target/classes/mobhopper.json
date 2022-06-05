@@ -1,0 +1,17 @@
+{
+    "mobhopper": {
+        "mob-hopper-config": {
+            "messages": [
+                "Entities killed."
+            ],
+            "name": "Mob Hopper",
+            "lore": ["Place this down to automatically kill enemies."],
+            "material": "HOPPER",
+            "range": 3,
+            "max-entities-per-iteration": 250,
+            "pull-timer": 20,
+            "kill-timer": 60,
+            "success-chance": 25
+        }
+    }
+}

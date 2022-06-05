@@ -1,0 +1,26 @@
+{
+    "pulser-config": {
+        "pulser": {
+            "messages": [
+                "Crops grew!"
+            ],
+            "name": "Crop Pulser",
+            "lore": ["Place this down to automatically grow crops."],
+            "material": "HOPPER",
+            "crop-range": 1,
+            "delay-timer": 600,
+            "min-timer": 600,
+            "max-timer": 600,
+            "success-chance": 25,
+            "crop-blocks": [
+                "pumpkin_stem",
+                "melon_stem",
+                "carrot",
+                "cocoa_beans",
+                "netherstalk",
+                "wheat",
+                "potato"
+            ]
+        }
+    }
+}

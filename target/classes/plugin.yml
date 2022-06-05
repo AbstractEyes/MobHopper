@@ -1,0 +1,9 @@
+name: AbsMobHopper
+main: com.abstractphil.mobhopper.AbsMobHopper
+version: 1.0
+description: "Abs Mob Hopper"
+depend: [RedItems, ConfigCore, WarCore]
+commands:
+  givemobhopper:
+    description: Gives a mob hopper to a player.
+    usage: givemobhopper %player% amount
